@@ -35,17 +35,23 @@ curl -X POST http://localhost:3000/user \
     "email": "alice@example.com"
   }'
 ```
+Save the _id from the output to use in the next commands.
+
 2. Read User (GET /user/:id)
 
-```curl http://localhost:3000/user/64b7f4c3e1a83a1c2df3e456```
+```
+curl http://localhost:3000/user/<id>
+```
 
 3. Update User (PUT /user/:id)
 ```
-curl -X PUT http://localhost:3000/user/64b7f4c3e1a83a1c2df3e456 \
+curl -X PUT http://localhost:3000/user/<id> \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Alice Johnson"
   }'
 ```
 4. Delete User (DELETE /user/:id)
-```curl -X DELETE http://localhost:3000/user/64b7f4c3e1a83a1c2df3e456```
+```
+curl -X DELETE http://localhost:3000/user/<id>
+```
