@@ -4,11 +4,11 @@
 A sample Node.js application demonstrating MongoDB Atlas integration with basic CRUD functionality.
 
 ## MongoDB Atlas Cluster Setup
-Go to https://www.mongodb.com/cloud/atlas
-Create a free shared cluster
-Add a user (username/password)
-Add your IP
-Get connection string (e.g., mongodb+srv://<username>:<password>@cluster0.mongodb.net/test?retryWrites=true&w=majority)
+1. Go to https://www.mongodb.com/cloud/atlas
+2. Create a free shared cluster
+3. Add a user (username/password)
+4. Add your IP
+5. Get connection string (e.g., mongodb+srv://<username>:<password>@cluster0.mongodb.net/test?retryWrites=true&w=majority)
 
 ## 🛠 Setup
 
