@@ -17,6 +17,9 @@ A sample Node.js application demonstrating MongoDB Atlas integration with basic 
 3. Run `npm install && npm start`
 4. Access at `http://localhost:3000`
 
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/b3aea619-7313-4933-83b0-abe976b7fb22" />
+
+
 ## Tech Stack
 - Node.js
 - Express.js
